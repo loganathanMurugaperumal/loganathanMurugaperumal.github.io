@@ -19,7 +19,7 @@
 	  z-index: 100 !important;
 }
 #switch button {
-	border:1px solid;
+	border:1px solid #000;
 	background:none;
 	height:100%;
 	margin:0;
@@ -28,6 +28,7 @@
 	font-size:22px;
 	border-radius:none;
 	outline:none;
+	background-color: #333;
 }
 #switch button:active{
 	background:rgba(0,0,0,0.2);
