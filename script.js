@@ -1,4 +1,4 @@
-//$(document).ready(function(){   
+$(document).ready(function(){   
     var numButtons = "";
     var inputToggle,sel;
     //add numbers 0-9
@@ -169,4 +169,4 @@
 
     }, false);
  
-//});
+});
