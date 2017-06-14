@@ -3,7 +3,7 @@ $(document).ready(function(){
     var inputToggle,sel;
     //add numbers 0-9
 
-        numButtons += "<div class='row padding-none' style='margin-left:0px;'><div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='1' onclick='addValueToField(this.value)'  />" + 1 + "</button></div>"
+        numButtons += "<div class='row padding-none' style='margin-left:0px; width:100%;'><div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='1' onclick='addValueToField(this.value)'  />" + 1 + "</button></div>"
     numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='2' onclick='addValueToField(this.value)'  />" + 2 + "</button></div>"
     numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='3' onclick='addValueToField(this.value)'  />" + 3 + "</button></div>"
 
