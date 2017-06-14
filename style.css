@@ -6,7 +6,7 @@
 	
 #switch{
 	  background: black;
-	  height: 30%;
+	  height: 50%;
 	  width: 100vw;
 	  position: fixed;
 	  left: 0;
@@ -19,18 +19,17 @@
 	  z-index: 100 !important;
 }
 #switch button {
-	border:1px solid #000;
-	background:none;
-	height:100%;
-	margin:0;
-	width:100%;
-	color:white;
-	font-size:22px;
-	border-radius:none;
-	outline:none;
-	background-color: #333;
-	padding: 10% 0px;
-  	font-weight: bold;
+	border: none;
+	  background: none;
+	  height: 100%;
+	  margin: 0;
+	  width: 100%;
+	  color: white;
+	  font-size: 22px;
+	  border-radius: none;
+	  outline: none;
+	  background-color: #333;
+	  font-weight: bold;
 }
 #switch button:active{
 	background:rgba(0,0,0,0.2);
@@ -46,4 +45,10 @@
 
 .padding-none{
 	padding:0px !important;
+}
+
+.button-ctnr{
+padding: 3% 0px !important;
+  border: 2px solid #000;
+  border-collapse: collapse !important;
 }
