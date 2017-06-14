@@ -41,6 +41,6 @@
 	padding-right:0 !important;
 }
 
-#switch .col-xs-4{
-padding:0px !important;
+.padding-none{
+	padding:0px !important;
 }
