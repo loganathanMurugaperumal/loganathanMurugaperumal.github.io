@@ -1,3 +1,4 @@
+$(document).ready(function(){
 var numButtons = "";
 var inputToggle,sel;
 //add numbers 0-9
@@ -163,3 +164,4 @@ document.getElementById("switch").style.display = "flex";
 
 
     }, false);
+});
