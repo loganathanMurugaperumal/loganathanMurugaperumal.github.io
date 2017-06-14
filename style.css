@@ -5,7 +5,7 @@
 	
 	
 #switch{
-	  background: #333;
+	  background: #616161;
 	  position: fixed;
 	  left: 0;
 	  right: 0;
@@ -26,7 +26,7 @@
 	  font-size: 22px;
 	  border-radius: none;
 	  outline: none;
-	  background-color: #333;
+	  background-color: #616161;
 	  font-weight: bold;
 	padding: 10% 0px !important;
 }
@@ -50,5 +50,5 @@
 /*padding: 3% 0px !important;*/
   border: 2px solid #000;
   border-collapse: collapse !important;
-	background: #333;
+	background: #616161;
 }
