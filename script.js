@@ -17,7 +17,7 @@ $(document).ready(function(){
     numButtons += "<div class='col-xs-4' style='text-align: center;'><button class='numKey' value='abc' onclick='addValueToField(this.value)'  /> abc </button></div>"
 
     numButtons += "<div class='col-xs-4' style='text-align: center;'><button class='numKey' value='0' onclick='addValueToField(this.value)' >0</button></div><div class='col-xs-4' style='text-align: center;'> <button class='numKey' value='<' onclick='addValueToField(this.value)' ><</button></div> "
-    numButtons += "<div class='col-xs-6 col-xs-offset-3' style='text-align: center;'><button class='numKey' value='GO' onclick='addValueToField(this.value)'  /> GO </button></div></div>"
+    numButtons += "<div class='col-xs-12' style='text-align: center;'><button class='numKey' value='GO' onclick='addValueToField(this.value)'  /> GO </button></div></div>"
     document.getElementById('switch').innerHTML = numButtons;
     function hideKeyboard(element) {
        $(element).attr('readonly', 'readonly'); // Force keyboard to hide on input field.
