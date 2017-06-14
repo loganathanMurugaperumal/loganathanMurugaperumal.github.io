@@ -28,7 +28,7 @@
 	  outline: none;
 	  background-color: #333;
 	  font-weight: bold;
-	padding: 3% 0px !important;
+	padding: 30% 0px !important;
 }
 #switch button:active{
 	background:rgba(0,0,0,0.2);
