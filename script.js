@@ -3,21 +3,21 @@ $(document).ready(function(){
     var inputToggle,sel;
     //add numbers 0-9
 
-        numButtons += "<div class='row padding-none' style='margin-left:0px; width:100%;'><div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='1' onclick='addValueToField(this.value)'  />" + 1 + "</button></div>"
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='2' onclick='addValueToField(this.value)'  />" + 2 + "</button></div>"
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='3' onclick='addValueToField(this.value)'  />" + 3 + "</button></div>"
+        numButtons += "<div class='row padding-none' style='margin-left:0px; width:100%;'><div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='1' onclick='addValueToField(this.value)'  />" + 1 + "</button></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='2' onclick='addValueToField(this.value)'  />" + 2 + "</button></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='3' onclick='addValueToField(this.value)'  />" + 3 + "</button></div>"
 
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='4' onclick='addValueToField(this.value)'  />" + 4 + "</button></div>"
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='5' onclick='addValueToField(this.value)'  />" + 5 + "</button></div>"
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='6' onclick='addValueToField(this.value)' />" + 6 + "</button></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='4' onclick='addValueToField(this.value)'  />" + 4 + "</button></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='5' onclick='addValueToField(this.value)'  />" + 5 + "</button></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='6' onclick='addValueToField(this.value)' />" + 6 + "</button></div>"
 
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='7' onclick='addValueToField(this.value)'  />" + 7 + "</button></div>"
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='8' onclick='addValueToField(this.value)'  />" + 8 + "</button></div>"
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='9' onclick='addValueToField(this.value)'  />" + 9 + "</button></div>"
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='abc' onclick='addValueToField(this.value)'  /> abc </button></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='7' onclick='addValueToField(this.value)'  />" + 7 + "</button></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='8' onclick='addValueToField(this.value)'  />" + 8 + "</button></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='9' onclick='addValueToField(this.value)'  />" + 9 + "</button></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='abc' onclick='addValueToField(this.value)'  /> abc </button></div>"
 
-    numButtons += "<div class='col-xs-4 padding-none' style='text-align: center;'><button class='numKey' value='0' onclick='addValueToField(this.value)' >0</button></div><div class='col-xs-4 padding-none' style='text-align: center;'> <button class='numKey' value='<' onclick='addValueToField(this.value)' ><</button></div> "
-    numButtons += "<div class='col-xs-12 padding-none' style='text-align: center;'><button class='numKey' value='GO' onclick='addValueToField(this.value)'  /> GO </button></div></div>"
+    numButtons += "<div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='0' onclick='addValueToField(this.value)' >0</button></div><div class='col-xs-4 padding-none button-ctnr' style='text-align: center;'> <button class='numKey' value='<' onclick='addValueToField(this.value)' ><</button></div> "
+    numButtons += "<div class='col-xs-12 padding-none button-ctnr' style='text-align: center;'><button class='numKey' value='GO' onclick='addValueToField(this.value)'  /> GO </button></div></div>"
     document.getElementById('switch').innerHTML = numButtons;
     function hideKeyboard(element) {
        $(element).attr('readonly', 'readonly'); // Force keyboard to hide on input field.
