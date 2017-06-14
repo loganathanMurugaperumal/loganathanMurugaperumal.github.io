@@ -1,3 +1,9 @@
+.hideOpacity {
+	opacity: 0;
+    	z-index: -1;
+}
+	
+	
 #switch{
 	background:black;
 	height:193px;
