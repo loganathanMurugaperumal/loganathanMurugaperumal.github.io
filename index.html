@@ -20,31 +20,31 @@
  
 <input id="hiddenInput" type="number" class='hideOpacity' value="0"/>
 <div class="form-group required keyboard">
-	<label for="inboundNumber" class="control-label">
-	Inbound Number
-	</label>
-	<input 
-	class="form-control changeKeyInput"
-	required="required"
-	id="inboundNumber" maxlength="15" 
-	type="text">
-	<button id="inboundNumber-btn" type="button" class="btn btn-primary changeKeyType"> abc </button>  
+				<label for="inboundNumber" class="control-label">
+						Inbound Number
+				</label>
+			<input
+				class="form-control"
+				required="required"
+				id="inboundNumber" maxlength="15"
+				type="text" onkeypress="return blockSpecialChars(event)"/>
+			<!--<button id="inboundNumber-btn" type="button" class="btn btn-primary changeKeyType"> abc </button>-->
 
- </div> 
- <div class="form-group required keyboard">
+            </div>
+            <div class="form-group required keyboard">
               <label for="trailerNumber" class="control-label">
                 Trailer Number
               </label>
-              <input 
+              <input
                   style="text-transform: uppercase" maxlength="14"
-                  class="form-control changeKeyInput"
+                  class="form-control"
                   required="required"
                   id="trailerNumber"
-                  type="text" onkeypress="return blockSpecialChars(event)">
-                  
- <button id="trailerNumber-btn" type="button" class="btn btn-primary changeKeyType"> abc </button>
-            
- </div>
+                  type="text" autocomplete="false" onkeypress="return blockSpecialChars(event)"/>
+
+			  <!--<button id="trailerNumber-btn" type="button" class="btn btn-primary changeKeyType"> abc </button>-->
+
+            </div>
  
 
   </body>
