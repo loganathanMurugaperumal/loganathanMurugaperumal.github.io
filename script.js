@@ -20,7 +20,7 @@ $(document).ready(function(){
     numButtons += "<div class='col-xs-6 col-xs-offset-3' style='text-align: center;'><button class='numKey' value='GO' onclick='addValueToField(this.value)'  /> GO </button></div></div>"
     document.getElementById('switch').innerHTML = numButtons;
     function hideKeyboard(element) {
-        $(element).attr('readonly', 'readonly'); // Force keyboard to hide on input field.
+       /* $(element).attr('readonly', 'readonly'); // Force keyboard to hide on input field.
 
         setTimeout(function() {
             $(element).blur();  //actually close the keyboard
@@ -29,7 +29,13 @@ $(document).ready(function(){
             // Remove readonly attribute after keyboard is hidden.
             $(element).removeAttr('readonly');
            // $(element).focus(); //bring cursor back to the input field
-        }, 100);
+        }, 100);*/
+        setTimeout(function() {
+            element.focus();
+            setTimeout(function() {
+                element.setAttribute('style', 'display:none;');
+            }, 50);
+        }, 50);
 
     }
     function addValueToField(myValue){
